@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fade-in the title and subtitle
     gsap.from('.text-section h1', { opacity: 0, y: -50, duration: 1, ease: 'power3.out' });
-    gsap.from('.text-section p', { opacity: 0, y: 50, duration: 1, ease: 'power3.out' });
+    gsap.from('.text-section p', { opacity: 0, y: 50, duration: 1,ease: 'power3.out' });
 
     // Fade-in the buttons
-    gsap.from('.buttons button', { opacity: 1, y: 50, duration: 1, delay:0.2,ease: 'power3.out', stagger: 0.2 });
+    // gsap.from('.buttons button', { opacity: 1, y: 50, duration: 1, delay:0.2,ease: 'power3.out', stagger: 0.2 });
 
     
     document.querySelectorAll('.buttons button').forEach(button => {
